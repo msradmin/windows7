@@ -19,13 +19,13 @@ new explorer.window()
 		<center>
 			<span style="font-size:33px;">
 				<img style="margin-right:5px;vertical-align:-20px;width:64px;height:64px;" src="webdows/resources/explorer/webdows/so3.png">
-				Webdows <span id="lv">...</span>
+				Windows <span id="lv">...</span>
 			</span>
 		</center>
 		<div>
-			Below Average Webdows | Version <span id="version">...</span><span style="float:right;" id="showing">...</span>
+			Microsoft Windows | Version <span id="version">...</span><span style="float:right;" id="showing">...</span>
 			<pre>Loading license, Please wait...</pre>
-			<span style="float:right;">Webdows is NOT affiliated with Microsoft</span>
+			<span style="float:right;">This project is NOT affiliated with Microsoft</span>
 		</div>
 		<button class="credits">...</button>
 		<button class="ok">Ok</button>
@@ -59,7 +59,7 @@ new explorer.window()
 		var button = $(this);
 		var list = [
 			{
-				title:'Webdows License',
+				title:'Windows License',
 				location: './license.txt'
 			}, {
 				title:'License Terms',
