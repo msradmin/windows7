@@ -1,36 +1,36 @@
-$('head').find('title').text('Webdows');
+$('head').find('title').text('DEMO');
 explorer.start.append([], [
 	{
-		title: 'Webdows',
+		title: 'Windows',
 		icon: 'webdows/resources/icons/ques.ico',
 		callback: function() { system.loader('webdows/webver.js'); }
 	}, {
-		title: 'Settings',
+		title: 'Painel de Controle',
 		icon: 'webdows/resources/icons/cont.ico'
 	}, {
-		title: 'This Browser',
+		title: 'Internet Explorer',
 		icon: 'webdows/resources/icons/scre.ico',
 		callback: function() { explorer.file_explorer(); },
 		context: [
 			{
-				title: '<b>Open</b>',
+				title: '<b>Abrir</b>',
 				icon: 'webdows/resources/icons/driv.ico',
 				callback: function() { explorer.file_explorer(); }
 			}, {}, {
-				title: 'Properties',
+				title: 'Propriedades',
 				callback: function() { system.loader('webdows/system.js'); }
 			}
 		]
 	}, {
-		title: 'Personalize',
+		title: 'Personalizar',
 		icon: 'webdows/resources/icons/pers.ico',
 		callback: function() { system.loader('webdows/personalize.js'); }
 	}, {
-		title: 'Welcome',
+		title: 'Bem-vindo',
 		icon: 'webdows/resources/icons/logo.png',
 		callback: function() { system.loader('webdows/welcome.js'); }
 	}, {
-		title: 'Restart',
+		title: 'Reiniciar',
 		callback: function() { location.reload(true); }
 	}
 ]);
@@ -41,28 +41,28 @@ $('#desktop.explorer').on('contextmenu', function(e) {
 		.location(e.pageX, e.pageY)
 		.append([
 			{
-				title: 'View'
+				title: 'Exibir'
 			}, {
-				title: 'Sort By'
+				title: 'Agrupar por'
 			}, {
-				title: 'Refresh'
+				title: 'Atualizar'
 			}, {}, {
-				title: 'New',
+				title: 'Nova',
 				context: [
 					{
-						title: 'File',
+						title: 'Arquivo',
 						callback: function() {}
 					}, {}, {
-						title: 'Folder',
+						title: 'Pasta',
 						callback: function() {}
 					}
 				]
 			}, {}, {
-				title: 'webver.js',
+				title: 'Sobre o Windows',
 				icon: 'webdows/resources/icons/info.ico',
 				callback: function() { system.loader('webdows/webver.js'); }
 			}, {
-				title: 'Personalize',
+				title: 'Personalização',
 				icon: 'webdows/resources/icons/pers.ico',
 				callback: function() { system.loader('webdows/personalize.js'); }
 			}
