@@ -29,7 +29,7 @@ input[type=text] {
 	outline:none;
 }
 @font-face {
-	font-family: NotoSans;
+	font-family: SegoeUI;
 	src: url('1.woff');
 }
 #taskbar #middleframe .button.drag:not(.clone) {
