@@ -9,7 +9,7 @@ new explorer.window()
 .resize(450, 400)
 .center()
 .controls([])
-.title('About Webdows')
+.title('Sobre Windows')
 .icon('webdows/resources/icons/info.ico')
 .callback(function() {
 	var win = this;
@@ -59,16 +59,16 @@ new explorer.window()
 		var button = $(this);
 		var list = [
 			{
-				title:'Windows License',
+				title:'Licença do Windows',
 				location: './license.txt'
 			}, {
-				title:'License Terms',
+				title:'Termos de Licença',
 				location: './legalcode.txt'
 			}, {
-				title:'Credits',
+				title:'Creditos',
 				location: './credits.txt'
 			}, {
-				title:'Other Licenses',
+				title:'Outras Licenças',
 				location: './otherlicenses.txt'
 			}
 		];
