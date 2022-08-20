@@ -1,5 +1,5 @@
 new explorer.window()
-.title('Registry Editor')
+.title('Editor do Registro')
 .resize(600, 400)
 .center()
 .icon('webdows/resources/icons/rege.ico')
