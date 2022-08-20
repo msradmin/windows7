@@ -26,7 +26,7 @@ explorer.start.append([], [
 		icon: 'webdows/resources/icons/pers.ico',
 		callback: function() { system.loader('webdows/personalize.js'); }
 	}, {
-		title: 'Bem-vindo',
+		title: 'Sobre o Windows',
 		icon: 'webdows/resources/icons/logo.png',
 		callback: function() { system.loader('webdows/welcome.js'); }
 	}, {
