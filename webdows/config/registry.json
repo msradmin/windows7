@@ -1,7 +1,7 @@
 {
     "explorer": {
         "theme": {
-            "default": "webdows",
+            "default": "windows",
             "extraCSS": ""
         },
 		"startup": [
@@ -12,35 +12,35 @@
 		],
 		"startmenu": [
 			{
-				"title": "About Webdows",
+				"title": "About Windows",
 				"icon": "webdows/resources/icons/info.ico",
 				"file": "webdows/webver.js"
 			}, {
-				"title": "Personalize",
+				"title": "Personalizar",
 				"icon": "webdows/resources/icons/pers.ico",
 				"file": "webdows/personalize.js"
 			}, {
-				"title": "Command Prompt",
+				"title": "Prompt de Commando",
 				"icon": "webdows/resources/icons/scre.ico",
 				"file": "webdows/cmd.js"
 			}, {
-				"title": "Registry Editor",
+				"title": "Editor do Registro",
 				"icon": "webdows/resources/icons/rege.ico",
 				"file": "webdows/regedit.js"
 			}, {
-				"title": "Calculator",
+				"title": "Calculadora",
 				"icon": "webdows/resources/icons/calc.ico",
 				"file": "webdows/calc.js"
 			}, {
-				"title": "Notepad",
+				"title": "Bloco de notas",
 				"icon": "webdows/resources/icons/note.ico",
 				"file": "webdows/notepad.js"
 			}, {
-				"title": "Run",
+				"title": "Executar",
 				"icon": "webdows/resources/icons/runi.ico",
 				"file": "webdows/run.js"
 			}, {
-				"title": "Task Manager",
+				"title": "Gerenciador de Tarefas",
 				"icon": "webdows/resources/icons/task.ico",
 				"file": "webdows/taskmgr.js"
 			}, {
@@ -48,7 +48,7 @@
 				"icon": "programs/Youtube Extractor/logo.png",
 				"file": "programs/Youtube Extractor/index.js"
 			}, {
-				"title": "Web Explorer",
+				"title": "Internet Explorer",
 				"icon": "programs/Web Explorer/1.png",
 				"file": "programs/Web Explorer/we.js"
 			}, {
