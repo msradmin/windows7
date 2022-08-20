@@ -1,4 +1,4 @@
-$('head').find('title').text('DEMO');
+$('head').find('title').text('Windows 7');
 explorer.start.append([], [
 	{
 		title: 'Windows',
