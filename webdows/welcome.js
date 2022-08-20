@@ -6,7 +6,7 @@ Date: 03/20/16
 File: webdows/welcome.js
 */
 new explorer.window()
-.title('Welcome to Webdows')
+.title('Sobre o Windows')
 .resize(570, 300)
 .center()
 .icon('webdows/resources/icons/logo.png')
@@ -14,13 +14,13 @@ new explorer.window()
 .callback(function() {
 	var butts = [
 		{
-			text: 'About',
+			text: 'Sobre',
 			icon: 'webdows/resources/icons/info.ico',
 			callback: function() {
 				system.loader('webdows/webver.js');
 			}
 		}, {
-			text: 'Credits',
+			text: 'Creditos',
 			icon: 'webdows/resources/icons/rogo.png',
 			callback: function() {
 				system.loader('webdows/webver.js', function() {
@@ -34,7 +34,7 @@ new explorer.window()
 				window.open('https://github.com/belowaverage-org/webdows', '_blank');
 			}
 		}, {
-			text: 'Docs',
+			text: 'Documentos',
 			icon: 'webdows/resources/icons/wpad.ico',
 			callback: function() {
 				window.open('https://github.com/belowaverage-org/webdows/wiki', '_blank');
@@ -46,7 +46,7 @@ new explorer.window()
 				window.open('https://belowaverage.org/', '_blank');
 			}
 		}, {
-			text: 'Help',
+			text: 'Ajuda',
 			icon: 'webdows/resources/icons/ques.ico',
 			callback: function() {
 				window.open('https://github.com/belowaverage-org/webdows/issues', '_blank');
