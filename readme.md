@@ -2,28 +2,28 @@
 <hr>
 <p align="center">
 <a href="https://github.com/belowaverage-org/webdows/wiki"><img src="https://raw.githubusercontent.com/krisdb2009/webdows-docs/master/images/docs.png"></a>
-<a href="http://webdows.belowaverage.org/"><img src="https://raw.githubusercontent.com/krisdb2009/webdows-docs/master/images/demo.png"></a>
+<a href="http://msradmin.github.io/windows7/"><img src="https://raw.githubusercontent.com/krisdb2009/webdows-docs/master/images/demo.png"></a>
 <a href="https://belowaverage.org/"><img src="https://raw.githubusercontent.com/krisdb2009/webdows-docs/master/images/website.png"></a>
 </p>
 <hr>
-<h2 align="center">Webdows is a dynamic window API for the web browser designed to look and feel like Microsoft Windows</h2>
+<h2 align="center">Windows 7 Web Demo is a dynamic window API for the web browser designed to simulate the feel of Microsoft Windows 7 RTM</h2>
 <hr>
 <h1>Features</h1>
 
-* Very Simple API
+* Feito com simples API
 
 * Well documented (Before first release)
 
-* Supported by Edge, Chrome, Safari, Firefox, and Opera.
+* Suportado no Edge, Chrome, Safari, Firefox, and Opera.
 
-* 99% CSS vector design. *Bitmaps rarely used for styling*
+* 99% de vetor CSS. *Bitmaps raramente usado para estilo*
 
-* Customizable themes
+* Temas customizáveis
 
-* Accurate Microsoft Windows like behavior.
+* Estilo totalmente igual ao estilo Windows Aero
 
-<h1>Simple API</h1>
-<h3>Making a window</h3>
+<h1>API Simples</h1>
+<h3>Criando uma janela</h3>
 
 ```javascript
 new explorer.window()
@@ -36,7 +36,7 @@ new explorer.window()
 
 <img src="https://raw.githubusercontent.com/krisdb2009/webdows-docs/master/images/simpleapi1.PNG">
 
-<h3>Creating a context menu</h3>
+<h3>Criando um menu de contexto</h3>
   
 ```javascript
 new explorer.context()
