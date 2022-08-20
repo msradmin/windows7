@@ -6,7 +6,7 @@ Date: 03/14/16
 File: webdows/system.js
 */
 new explorer.window()
-.title('System')
+.title('Sistema')
 .icon('webdows/resources/icons/scre.ico')
 .resize(500, 300)
 .center()
