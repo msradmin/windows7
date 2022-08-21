@@ -7,10 +7,10 @@ File: webdows/system32/webldr.js
 (function() {
 	$('#bootlog').append('<pre>Checking registry...</pre>');
 	function files() {
-		$('#bootlog').append('<pre>Good<br>---------------------------</pre>');
+		$('#bootlog').append('<pre>carregado!<br>---------------------------</pre>');
 		$.getJSON('webdows/config/wfs.json', function(files) {
 			system.files = files;
-			$('#bootlog').append('<pre>Loading and checking SYSTEM.FILES.WEBDOWS...</pre>');
+			$('#bootlog').append('<pre>Carregando e verificando SYSTEM.FILES.WEBDOWS...</pre>');
 			system.bootLoader = {
 				loadList: [],
 				total: 0,
@@ -65,17 +65,17 @@ File: webdows/system32/webldr.js
 						}
 					});
 				} else {
-					$('#bootlog').append('<pre>Loading finished... Registering services...</pre>');
+					$('#bootlog').append('<pre>Carregamento concluído... Registrando serviços...</pre>');
 					$.each(system.registry.get('HKEY_LOCAL_WEBDOWS/system/services'), function(k) {
 						var service = new system.service()
 						.path(this.path)
 						.interval(parseInt(this.interval))
 						.autoStart((this.autoStart == 'true'))
 						.id(k);
-						$('#bootlog').append('<pre>'+k+': Service registered...</pre>');
+						$('#bootlog').append('<pre>'+k+': Serviço registrado...</pre>');
 						if(this.autoStart == 'true') {
 							service.run(true);
-							$('#bootlog').append('<pre>'+k+': Service started...</pre>');
+							$('#bootlog').append('<pre>'+k+': Serviço iniciado...</pre>');
 						}
 					});
 					system.bootLoader.loaded = true;
@@ -95,13 +95,13 @@ File: webdows/system32/webldr.js
 		});
 	}
 	if(typeof system.registry.get('HKEY_LOCAL_WEBDOWS') == 'undefined') {
-		$('#bootlog').append('<pre>Registry missing data! Downloading new registry...</pre>');
+		$('#bootlog').append('<pre>Falta um registro! Instalando o novo registro...</pre>');
 		$.ajax({
 			url: 'webdows/config/registry.json',
 			dataType: 'json',
 			async: true,
 			success: function(data) {
-				$('#bootlog').append('<pre>Download finished, applying new registry...</pre>');
+				$('#bootlog').append('<pre>Instalação concluída!, aplicando o novo registro...</pre>');
 				system.registry.set('HKEY_LOCAL_WEBDOWS', data);
 				files();
 			}
