@@ -34,7 +34,7 @@ new explorer.window()
 				window.open('https://github.com/belowaverage-org/webdows', '_blank');
 			}
 		}, {
-			text: 'Documentos',
+			text: 'Ver mais',
 			icon: 'webdows/resources/icons/wpad.ico',
 			callback: function() {
 				window.open('https://github.com/belowaverage-org/webdows/wiki', '_blank');
@@ -55,7 +55,7 @@ new explorer.window()
 	];
 	var body = this.body;
 	body.css({'padding-top':'100px','text-align':'center','overflow-x':'hidden'});
-	body.html('<div class="topframe"><div class="welc">Welcome</div><div class="stat">Webdows 6<br>'+platform.name+' '+platform.version+'<br>'+platform.layout+'<br>'+platform.os+'<br>'+location.hostname+'</div></div>');
+	body.html('<div class="topframe"><div class="welc">Bem-vindo</div><div class="stat">Windows 7<br>'+platform.name+' '+platform.version+'<br>'+platform.layout+'<br>'+platform.os+'<br>'+location.hostname+'</div></div>');
 	$.each(butts, function() {
 		var buttID = system.guid();
 		body.append('<button buttID="'+buttID+'" class="butt"><span style="background-image:url(\''+this.icon+'\');" class="icon"></span>'+this.text+'</button>');
