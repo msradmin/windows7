@@ -8,7 +8,7 @@ File: webdows/calc.js
 new explorer.window()
 .resize(220, 275)
 .center()
-.title('Calculator')
+.title('Calculadora')
 .controls(['min'])
 .icon('webdows/resources/icons/calc.ico')
 .callback(function() {
@@ -16,24 +16,24 @@ new explorer.window()
 	var dis = this;
 	dis.menuBar([
 		{
-			'title': 'View',
+			'title': 'Exibir',
 			context: [
 				{
-					title: 'Minimize',
+					title: 'Minimizar',
 					callback: function() { dis.front().toggleMin(); }
 				}, {}, {
-					title: 'Exit',
+					title: 'Fechar',
 					callback: function() { dis.close(); }
 				}
 			]
 		}, {
-			'title': 'Help',
+			'title': 'Ajuda',
 			context: [
 				{
-					title: 'Help',
+					title: 'Ajuda',
 					callback: function() { system.loader('webdows/welcome.js') }
 				}, {}, {
-					title: 'About Calculator',
+					title: 'Sobre a Calculadora',
 					callback: function() { system.loader('webdows/webver.js') }
 				}
 			]
@@ -72,7 +72,7 @@ new explorer.window()
 				peek.text('0');
 				break;
 			case 'easteregg':
-				blueScreen('Don\'t push my buttons. -Calculator');
+				blueScreen('Não puxe meus botões! -Calculadora');
 			default:
 				if($(this).text() !== '') {
 					if(peek.text() == '0') {
