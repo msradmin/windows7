@@ -20,14 +20,14 @@ $.extend(explorer, {
 		var win = new explorer.window()
 		.resize(600, 400)
 		.center()
-		.title('Explorer')
+		.title('Windows Explorer')
 		.icon('webdows/resources/icons/fold.ico')
 		.menuBar([
 		{
-			title: "File",
+			title: "Arquivo",
 			context: [
 				{
-					title: "Close",
+					title: "Fechar",
 					callback: function() {
 						win.close();
 					}
