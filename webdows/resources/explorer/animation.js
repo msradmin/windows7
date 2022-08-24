@@ -1,5 +1,5 @@
 new explorer.window()
-.title('Boot Animation')
+.title('Animação de Startup')
 .toggleMin()
 .front()
 .callback(function() {
@@ -57,7 +57,7 @@ new explorer.window()
 		position:absolute;
 		line-height:95px;
 		color:white;
-		content:'Below Average';
+		content:'Microsoft';
 		font-size:25px;
 		margin-left:100px;
 		animation:es3 3s ease-in-out;
@@ -67,7 +67,7 @@ new explorer.window()
 		position:absolute;
 		line-height:95px;
 		color:white;
-		content:'Webdows';
+		content:'Windows';
 		font-size:25px;
 		margin-left:280px;
 		animation:es5 3s ease-in-out;
