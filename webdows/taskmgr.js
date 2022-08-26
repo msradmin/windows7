@@ -1,10 +1,10 @@
 new explorer.window()
-.title('Task Manager')
+.title('Gerenciador de Tarefas')
 .icon('webdows/resources/icons/task.ico')
 .callback(function() {
 	var b = this.body;
 	var count = 0;
-	setIntasderval(function() {
+	setInterval(function() {
 		b.html(count++);
 	}, 100);
 	console.log(script.path);
