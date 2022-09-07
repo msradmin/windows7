@@ -1,12 +1,12 @@
 /*
 Below Average
 
-This component is NOT nessesary for the functionality of Webdows.
+Este script NÃO é necessário para o Windows 7 Project.
 
 To remove this script, remove the path from HKEY_LOCAL_WEBDOWS/system/startup/0
 */
 (function() {
-	$('title').text('Webdows Logon');
+	$('title').text('Windows Logon');
 	var id = system.guid();
 	$('body').append(`
 		<div id="`+id+`">
