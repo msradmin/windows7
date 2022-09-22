@@ -7,7 +7,7 @@ File: programs/Web Explorer/we.js
 */
 //Create a new window object
 new explorer.window()
-.title('Web Explorer') //set the title
+.title('Microsoft Internet Explorer') //set the title
 .resize(400, 300) //set the dimentions
 .icon('programs/Web Explorer/1.png') //set the icon
 .toggleMax() //make the window maximized
@@ -24,7 +24,7 @@ new explorer.window()
 		bod.find('input.i1').val(url);
 		
 		//Change the window title
-		win.title('Web Explorer - '+url)
+		win.title('Microsoft Internet Explorer - '+url)
 	};
 	
 	//Create the starting HTML
@@ -94,7 +94,7 @@ new explorer.window()
 				win.title('Web Explorer');
 				
 				//Change the input placeholder
-				bod.find('input.i1').attr('placeholder', 'The tracker service has been stopped due to security reasons...');
+				bod.find('input.i1').attr('placeholder', 'PLACEHOLDER HERE');
 			}
 			
 			//If url1 has changed since last time change the input text and window title
