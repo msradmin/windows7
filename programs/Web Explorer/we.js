@@ -91,7 +91,7 @@ new explorer.window()
 				bod.find('input.i1').val('');
 				
 				//Set the window title
-				win.title('Web Explorer');
+				win.title('Microsoft Internet Explorer');
 				
 				//Change the input placeholder
 				bod.find('input.i1').attr('placeholder', 'PLACEHOLDER HERE');
