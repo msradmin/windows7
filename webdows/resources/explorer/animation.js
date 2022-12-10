@@ -82,7 +82,7 @@ new explorer.window()
 	}
 	#`+open+` .a::before {
 		position:absolute;
-		content:'';
+		content:'7';
 		left:-110px;
 		top:-110px;
 		width:300px;
