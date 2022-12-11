@@ -1,7 +1,7 @@
 {
     "explorer": {
         "theme": {
-            "default": "windows",
+            "default": "webdows",
             "extraCSS": ""
         },
 		"startup": [
