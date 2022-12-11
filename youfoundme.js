@@ -1,6 +1,6 @@
 new explorer.window()
-.title('H')
-.resize(1280, 720)
+.title('Testing Edge Browser API')
+.resize(320, 200)
 .callback(function() {
-    this.body.html('wow, you found me! thanks for using my simulator! this is an simulator thats recreates Windows 7 RTM Version, powered with Below Average (c) Webdows source code.');
+    this.body.html('ADD STUFF HERE');
 });
