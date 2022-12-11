@@ -10,7 +10,7 @@ new explorer.window()
 .center()
 .controls([])
 .title('Sobre Windows')
-.icon('webdows/resources/icons/info.ico')
+.icon('webdows/resources/icons/logo.png')
 .callback(function() {
 	var win = this;
 	this.body
@@ -18,7 +18,7 @@ new explorer.window()
 	.html(`
 		<center>
 			<span style="font-size:33px;">
-				<img style="margin-right:5px;vertical-align:-20px;width:64px;height:64px;" src="webdows/resources/explorer/webdows/so3.png">
+				<img style="margin-right:5px;vertical-align:-20px;width:64px;height:64px;" src="webdows/resources/icons/logo.png">
 				Windows <span id="lv">...</span>
 			</span>
 		</center>
