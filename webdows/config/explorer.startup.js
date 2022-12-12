@@ -1,7 +1,7 @@
 $('head').find('title').text('Windows 7');
 explorer.start.append([], [
 	{
-		title: 'Windows',
+		title: 'Sobre Windows',
 		icon: 'webdows/resources/icons/ques.ico',
 		callback: function() { system.loader('webdows/webver.js'); }
 	}, {
