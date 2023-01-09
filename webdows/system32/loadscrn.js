@@ -17,9 +17,9 @@ $('#bootlog').append(`
 		left:calc(50% - 80px);
 		width:160px;
 		height:160px;
-		background-image:url('webdows/resources/icons/bvlg.svg');
+		background-image:url('webdows/resources/icons/bootanim.gif');
 		background-size:100% 100%;
-		background-color:white;
+		background-color:black;
 		border-radius:80px;
 	}
 	#`+id+` #progress {
@@ -28,7 +28,7 @@ $('#bootlog').append(`
 		left:calc(50% - 100px);
 		width:200px;
 		height:16px;
-		background-color:#212121;
+		background-color:#0c0c0a;
 		border-radius:10px;
 	}
 	#`+id+` #progress::before {
@@ -38,7 +38,7 @@ $('#bootlog').append(`
 		height:8px;
 		margin-top:4px;
 		margin-left:5px;
-		background-color:#363636;
+		background-color:#0c0c0a;
 		border-radius:5px;
 	}
 	#`+id+` #progressFill {
@@ -49,7 +49,7 @@ $('#bootlog').append(`
 		border-radius:5px;
 		margin-top:4px;
 		margin-left:5px;
-		background-color:#e0e0e0;
+		background-color:#0c0c0a;
 		animation:1s mov infinite linear;
 	}
 	@keyframes mov {
