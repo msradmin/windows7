@@ -1,5 +1,5 @@
 new explorer.window()
-.title('Run')
+.title('Executar')
 .icon('webdows/resources/icons/runi.ico')
 .resize(400,200)
 .controls([])
