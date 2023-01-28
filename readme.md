@@ -1,7 +1,5 @@
-<img src="https://raw.githubusercontent.com/krisdb2009/webdows-docs/master/images/banner.png">
 <hr>
 <p align="center">
-<a href="https://github.com/belowaverage-org/webdows/wiki"><img src="https://raw.githubusercontent.com/krisdb2009/webdows-docs/master/images/docs.png"></a>
 <a href="http://msradmin.github.io/windows7/"><img src="https://raw.githubusercontent.com/krisdb2009/webdows-docs/master/images/demo.png"></a>
 <a href="https://belowaverage.org/"><img src="https://raw.githubusercontent.com/krisdb2009/webdows-docs/master/images/website.png"></a>
 </p>
@@ -12,15 +10,15 @@
 
 * Feito com simples API
 
-* Well documented (Before first release)
+* Bem documentada (Atualizada em 27 de dezembro de 2021.)
 
-* Suportado no Edge, Chrome, Safari, Firefox, and Opera.
+* Suportado no Edge, Chrome, Safari, Firefox, e o Opera.
 
 * 99% de vetor CSS. *Bitmaps raramente usado para estilo*
 
 * Temas customizáveis
 
-* Estilo totalmente igual ao estilo Windows Aero
+* Estilo totalmente igual ao estilo Windows Aero ( exceto o botão Iniciar )
 
 <h1>API Simples</h1>
 <h3>Criando uma janela</h3>
