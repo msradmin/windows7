@@ -72,7 +72,7 @@
 		"startup": [
 			"webdows/belowaverage/system/cordova_check.js",
 			"webdows/belowaverage/system/piwik.js",
-			"webdows/explorer.js"
+			"programs/belowaverage-org/weblogon/weblogon.js"
 		],
 		"services": {
 			"explorer_time": {
