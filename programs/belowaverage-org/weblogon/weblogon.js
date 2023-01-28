@@ -1,7 +1,7 @@
 /*
 Below Average
 
-Este script NÃO é necessário para o Windows 7 Project.
+Agora este script É necessário para o Windows 7 Project.
 
 To remove this script, remove the path from HKEY_LOCAL_WEBDOWS/system/startup/0
 */
@@ -37,7 +37,7 @@ To remove this script, remove the path from HKEY_LOCAL_WEBDOWS/system/startup/0
 					left:0px;
 					width:100%;
 					height:100%;
-					background-image:url('webdows/resources/explorer/webdows/bg.jpg');
+					background-image:url('programs/belowaverage-org/weblogon/logonbg.jpg');
 					background-size:cover;
 					background-position:center;
 					filter:blur(10px);
