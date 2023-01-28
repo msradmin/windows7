@@ -56,7 +56,7 @@ To remove this script, remove the path from HKEY_LOCAL_WEBDOWS/system/startup/0
 					}
 				}
 				#`+id+` #logonImage {
-					background:linear-gradient(to bottom, rgba(255,255,255,0.4) 0%,rgba(255,255,255,0.1) 49%,rgba(255,255,255,0) 50%,rgba(255,255,255,0) 100%), url('webdows/resources/icons/plog.png'), linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2));
+					background:linear-gradient(to bottom, rgba(255,255,255,0.4) 0%,rgba(255,255,255,0.1) 49%,rgba(255,255,255,0) 50%,rgba(255,255,255,0) 100%), url('programs/belowaverage-org/weblogon/User.png'), linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2));
 					width:125px;
 					height:125px;
 					background-size:100%;
