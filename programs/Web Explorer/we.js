@@ -94,7 +94,7 @@ new explorer.window()
 				win.title('Microsoft Internet Explorer');
 				
 				//Change the input placeholder
-				bod.find('input.i1').attr('placeholder', 'PLACEHOLDER HERE');
+				bod.find('input.i1').attr('placeholder', 'Page Loaded!');
 			}
 			
 			//If url1 has changed since last time change the input text and window title
