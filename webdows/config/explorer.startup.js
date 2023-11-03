@@ -1,7 +1,7 @@
 $('head').find('title').text('Windows 7');
 explorer.start.append([], [
 	{
-		title: 'Sobre Windows',
+		title: 'Sobre o Windows',
 		icon: 'webdows/resources/icons/ques.ico',
 		callback: function() { system.loader('webdows/webver.js'); }
 	}, {
@@ -26,7 +26,7 @@ explorer.start.append([], [
 		icon: 'webdows/resources/icons/pers.ico',
 		callback: function() { system.loader('webdows/personalize.js'); }
 	}, {
-		title: 'Sobre o Windows',
+		title: 'Welcome Center',
 		icon: 'webdows/resources/icons/logo.png',
 		callback: function() { system.loader('webdows/welcome.js'); }
 	}, {
@@ -47,7 +47,7 @@ $('#desktop.explorer').on('contextmenu', function(e) {
 			}, {
 				title: 'Atualizar'
 			}, {}, {
-				title: 'Nova',
+				title: 'Novo(a)',
 				context: [
 					{
 						title: 'Arquivo',
@@ -62,7 +62,7 @@ $('#desktop.explorer').on('contextmenu', function(e) {
 				icon: 'webdows/resources/icons/info.ico',
 				callback: function() { system.loader('webdows/webver.js'); }
 			}, {
-				title: 'Personalização',
+				title: 'Personalizar',
 				icon: 'webdows/resources/icons/pers.ico',
 				callback: function() { system.loader('webdows/personalize.js'); }
 			}
