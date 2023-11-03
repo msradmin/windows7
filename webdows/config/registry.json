@@ -12,7 +12,7 @@
 		],
 		"startmenu": [
 			{
-				"title": "About Windows",
+				"title": "Sobre o Windows",
 				"icon": "webdows/resources/icons/info.ico",
 				"file": "webdows/webver.js"
 			}, {
@@ -20,7 +20,7 @@
 				"icon": "webdows/resources/icons/pers.ico",
 				"file": "webdows/personalize.js"
 			}, {
-				"title": "Prompt de Commando",
+				"title": "Prompt de Comando",
 				"icon": "webdows/resources/icons/scre.ico",
 				"file": "webdows/cmd.js"
 			}, {
@@ -44,17 +44,13 @@
 				"icon": "webdows/resources/icons/task.ico",
 				"file": "webdows/taskmgr.js"
 			}, {
-				"title": "Youtube Extractor",
-				"icon": "programs/Youtube Extractor/logo.png",
-				"file": "programs/Youtube Extractor/index.js"
-			}, {
 				"title": "Internet Explorer",
 				"icon": "programs/Web Explorer/1.png",
 				"file": "programs/Web Explorer/we.js"
 			}, {
-				"title": "YouTube Sync",
-				"icon": "programs/youtube-sync/img/icon.png",
-				"file": "programs/youtube-sync/index.js"
+				"title": "System Test",
+				"icon": "webdows/resources/icons/scre.ico",
+				"file": "test.js"
 			}
 		]
     },
@@ -112,7 +108,7 @@
 	"software": {
 		"belowaverage-org": {
 			"weblogon": {
-				"domain": "belowaverage.org",
+				"domain": "WORKGROUP",
 				"registry": "https://api.belowaverage.org/v1/webdows/registry/"
 			}
 		}
