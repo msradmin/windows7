@@ -13,7 +13,7 @@ new explorer.window()
 	var win = this;
 	var body = this.body;
 	body.css({'background-color':'#000','color':'white'});
-	body.html('<div>Microsoft Windows [Version 6.1.7601]<br>Copyright (c) 2009 Microsoft Corporation. All Rights Reserved.<br><br></div><span>$></span><input>');
+	body.html('<div>Microsoft Windows [Version 6.1.7601]<br>Copyright (c) 2009 Microsoft Corporation. Todos os direitos reservados.<br><br></div><span>$></span><input>');
 	body.find('span').attr('style', 'height:20px;width:20px;');
 	body.find('input').css({'cursor':'default','font-family':'NotoSans','font-size':'16px','height':'20px','width':'calc(100% - 20px)','border':'none','box-shadow':'none','background-color':'black','color':'white'}).focus();
 	var history = [];
@@ -46,7 +46,7 @@ new explorer.window()
 				var start = command.replace('start ', '');
 				system.loader(start, function(success) {
 					if(!success) {
-						push('<div style="color:red;">Could not find file: '+start+'</div>');
+						push('<div style="color:red;">Este arquivo não foi encontrado: '+start+'</div>');
 					}
 				});
 			} else if(command.startsWith('ping ')) {
@@ -62,7 +62,7 @@ new explorer.window()
 							finished = new Date().getTime();
 							pong = finished - start;
 							if(pong >= 3000) {
-								push('<div style="color:red;">Host timed out...</div>');
+								push('<div style="color:red;">Tempo de host se encerrou...</div>');
 							} else {
 								push('<div>'+pong+'</div>');
 							}
