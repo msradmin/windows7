@@ -65,14 +65,14 @@ new explorer.window()
 				}
 				peek.text(ans);
 				if(ans == 'Infinity') {
-					peek.html('<span style="display:inline-block;font-size:12px;margin-right:5px;margin-top:12px;">Cannot divide by zero</span>');
+					peek.html('<span style="display:inline-block;font-size:12px;margin-right:5px;margin-top:12px;">Impossível dividir por zero</span>');
 				}
 				break;
 			case 'c':
 				peek.text('0');
 				break;
 			case 'easteregg':
-				blueScreen('Não puxe meus botões! -Calculadora');
+				blueScreen('Não aperte meus botões! - Calculadora');
 			default:
 				if($(this).text() !== '') {
 					if(peek.text() == '0') {
